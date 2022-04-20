@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="materialize.min.css">
+  
+  <!--Let browser know website is optimized for mobile-->
+  <title>Document</title>
+<!----------font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  
+  <header class="purple darken-4">
+    <div class="navbar">
+      <nav class="transparent">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">GizoGizo</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="solution.html">Solutions</a>
+              </li>
+              <li>
+                <a href="#sign up">Sign Up</a>
+              </li>
+              <li>
+                <a class="waves-effect purple darken-2 btn modal-trigger" href="#modal1">Login</a>
+
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                  <div class="modal-content">
+                    <div class="black-text">
+                      <h4>Account Login</h4>
+                      <p>Login to access your account dashboard</p>
+                    </div>
+                   
+                      <div class="input-field col">
+                        <input placeholder="" id="first_name" type="text" class="validate">
+                        <label for="first_name">Email</label>
+                      </div>
+                      <div class="input-field col">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Password</label>
+                      </div>
+                   
+
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Reset password</a>
+                    <a href="#!" class="modal-close btn waves-effect waves-green btn-flat">  Login</a>
+                  </div>
+                </div>
+                        
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-nav">
+      <h1 class="purple-text">GizoGizo</h1>
+      <li>
+        <a href="index.html">
+          <i class="Tiny material-icons">home</i>
+          Home</a>
+      </li>
+      <li>
+        <a href="solution.html">
+          <i class="Tiny material-icons">brightness_high</i>
+          Solutions</a>
+      </li>
+      <li>
+        <a href="sign.html">
+          <i class="Tiny material-icons">group</i>
+          Sign Up</a>
+      </li>
+      <li>
+        <a class="waves-effect purple darken-2 btn modal-trigger" href="#modal1">Login</a>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <div class="black-text">
+              <h4>Account Login</h4>
+              <p>Login to access your account dashboard</p>
+            </div>
+           
+              <div class="input-field col">
+                <input placeholder="" id="first_name" type="text" class="validate">
+                <label for="first_name">Email</label>
+              </div>
+              <div class="input-field col">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Password</label>
+              </div>
+           
+
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Reset password</a>
+            <a href="#!" class="modal-close btn waves-effect waves-green btn-flat">  Login</a>
+          </div>
+        </div>
+                
+      </li>
+    </ul>
+    <section>
+      <div class="container center" style="padding-bottom:5px ;">
+        <div class="row">
+          <div class="col s12 white-text">
+         <p>Welcome To GizoGizo</p>
+          <h4>Create An account</h4>
+          </div>
+        </div>
+    </section>
+  
+  </header>
+ 
+
+ <!-------------section contact----->
+ <section>
+  <div class="container">
+    <div class="row">
+      <div class="col s6">
+       <div>
+        <h4>Get a free account</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat ea accusantium inventore at pariatur.</p>
+        </div>
+        <div>
+          <h4>Download the free software</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat ea accusantium inventore at pariatur.</p>
+          </div>
+          <div>
+            <h4>Push to the platform</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat ea accusantium inventore at pariatur.</p>
+            </div>
+      </div>
+     <div class="col s6 m6">
+       
+         <h5>Contact Us</h5>
+         <div class="input-field">
+           <input type="text" placeholder="Name">
+          </div>
+          <div class="input-field">
+           <input type="text" placeholder="Email">
+          </div>
+          <div class="input-field">
+           <input type="text" placeholder="Phone">
+          </div>
+          <div class="input-field">
+           <textarea class="materialize-textarea" 
+           placeholder="Enter message"></textarea>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="company">
+           </div>
+           <div >
+          <label for="" class="left">Role</label> <br>
+        <button class="btn purple col s12">Sign up</button>
+       </div>
+     </div>
+    </div>
+</section>
+<!-----------footer-->
+
+<footer class="footer purple darken-2">
+ <div class="container">
+     <div class="col l6 s12 white-text">
+       <h5 class="">About Us</h5>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum explicabo expedita accusantium blanditiis maiores vitae, ea eaque illo nesciunt repudiandae optio. Voluptatibus eum veritatis magnam.</p>
+     </div>
+     <div class="col l4 offset-l2 s12">
+       <h5 class="white-text">Links</h5>
+       <ul>
+         <li><a class="grey-text text-lighten-3" href="#home">Home</a></li>
+         <li><a class="grey-text text-lighten-3" href="#about">Solutions</a></li>
+         <li><a class="grey-text text-lighten-3" href="#testimonials">SignUp</a></li>
+       </ul>
+     </div>
+   </div>
+ </div>
+ <div class=" purple darken-4">
+<div class="container">
+   <div class="row"style="margin: 0%;">
+    <div class="col  white-text">
+      <p>GizoGizo</p>
+      </div>
+      <div class="col right white-text">
+        <P>Product by Codeloccol</P>
+      </div>
+  </div>
+</div>
+ </div>
+</footer>
+  
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+  </script>
+<script src="materialize.min.js"></script>
+<script src="jquery-1.12.4.min.js"></script>
+  <script>
+      // Sidenav
+    var navbar = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(navbar, {});
+    //Mdal
+    document.addEventListener('DOMContentLoaded', function() {
+    var modal = document.querySelectorAll('.modal');
+    M.Modal.init(modal, {});
+  });
+  </script>
+</body>
+
+</html>
